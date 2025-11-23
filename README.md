@@ -1,4 +1,4 @@
-## Assignment Day 29 – TestNG Listeners, Reporting, dan Environment Configuration
+Assignment Day 29 – TestNG Listeners, Reporting, dan Environment Configuration
 
 Project ini adalah **lanjutan** dari:
 
@@ -24,4 +24,22 @@ Pada assignment Day 29 ini, fokus utama adalah:
 - **Apache POI** (untuk baca file Excel – data driven)
 - Browser: **Google Chrome**
 
+
 ---
+
+## 2. Cara Menjalankan Test
+
+Jalankan dari root project:
+
+```bash
+# Menjalankan semua test (hard, soft, dan data driven)
+./gradlew clean test -Psuite=all-tests-suite.xml -Penv=staging
+
+# Hanya test Hard Assert
+./gradlew clean test -Psuite=hard-assert-suite.xml -Penv=staging
+
+# Hanya test Soft Assert
+./gradlew clean test -Psuite=soft-assert-suite.xml -Penv=staging
+
+# Hanya test Data Driven
+./gradlew clean test -Psuite=data-driven-suite.xml -Penv=staging

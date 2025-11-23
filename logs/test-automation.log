@@ -1,107 +1,107 @@
-2025-11-23 07:43:07.053 [Test worker] INFO  tests.BaseTest - Loaded config env: staging
-2025-11-23 07:43:07.121 [Test worker] INFO  tests.LoginTest - [DataProvider] Load data login dari Excel: Data/login-data-test.xlsx (sheet: login-tests)
-2025-11-23 07:43:08.712 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:09.063 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:09.066 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='secret_sauce', expectedType='success', expectedMessage=''
-2025-11-23 07:43:09.072 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:09.073 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 07:43:09.272 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/inventory.html
-2025-11-23 07:43:09.272 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:09.272 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: SUCCESS (harus masuk ke inventory)
-2025-11-23 07:43:09.273 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert SUCCESS 1 OK - Redirect ke inventory.html
-2025-11-23 07:43:09.273 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert SUCCESS 2 OK - Title halaman 'Swag Labs'
-2025-11-23 07:43:09.273 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: success login (username & password valid) (username='standard_user', password='secret_sauce', expectedType='success') ===
+2025-11-23 08:13:03.570 [Test worker] INFO  tests.BaseTest - Loaded config env: staging
+2025-11-23 08:13:03.643 [Test worker] INFO  tests.LoginTest - [DataProvider] Load data login dari Excel: Data/login-data-test.xlsx (sheet: login-tests)
+2025-11-23 08:13:05.188 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:05.997 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:06.000 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='secret_sauce', expectedType='success', expectedMessage=''
+2025-11-23 08:13:06.008 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:06.008 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 08:13:06.242 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/inventory.html
+2025-11-23 08:13:06.242 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:06.242 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: SUCCESS (harus masuk ke inventory)
+2025-11-23 08:13:06.243 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert SUCCESS 1 OK - Redirect ke inventory.html
+2025-11-23 08:13:06.243 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert SUCCESS 2 OK - Title halaman 'Swag Labs'
+2025-11-23 08:13:06.243 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: success login (username & password valid) (username='standard_user', password='secret_sauce', expectedType='success') ===
 
-2025-11-23 07:43:09.275 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:09.285 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:09.377 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:10.702 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:11.006 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:11.008 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='locked_out_user', password='secret_sauce', expectedType='locked', expectedMessage='Epic sadface: Sorry, this user has been locked out.'
-2025-11-23 07:43:11.009 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:11.009 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: locked_out_user
-2025-11-23 07:43:11.192 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:11.192 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:11.192 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (locked)
-2025-11-23 07:43:11.235 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:11.235 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:11.235 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: locked user (locked_out_user) (username='locked_out_user', password='secret_sauce', expectedType='locked') ===
+2025-11-23 08:13:06.245 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:06.252 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:06.362 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:07.487 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:07.799 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:07.801 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='locked_out_user', password='secret_sauce', expectedType='locked', expectedMessage='Epic sadface: Sorry, this user has been locked out.'
+2025-11-23 08:13:07.803 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:07.803 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: locked_out_user
+2025-11-23 08:13:08.000 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:08.000 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:08.000 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (locked)
+2025-11-23 08:13:08.045 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:08.045 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:08.045 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: locked user (locked_out_user) (username='locked_out_user', password='secret_sauce', expectedType='locked') ===
 
-2025-11-23 07:43:11.236 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:11.244 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:11.340 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:12.332 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:12.635 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:12.637 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='salah_pass', expectedType='invalid', expectedMessage='Epic sadface: Username and password do not match any user in this service'
-2025-11-23 07:43:12.638 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:12.638 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 07:43:12.821 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:12.821 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:12.821 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
-2025-11-23 07:43:12.858 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:12.858 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:12.858 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username benar, password salah (username='standard_user', password='salah_pass', expectedType='invalid') ===
+2025-11-23 08:13:08.046 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:08.053 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:08.138 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:09.130 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:09.549 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:09.549 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='salah_pass', expectedType='invalid', expectedMessage='Epic sadface: Username and password do not match any user in this service'
+2025-11-23 08:13:09.549 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:09.553 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 08:13:09.735 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:09.735 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:09.735 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
+2025-11-23 08:13:09.774 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:09.775 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:09.775 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username benar, password salah (username='standard_user', password='salah_pass', expectedType='invalid') ===
 
-2025-11-23 07:43:12.859 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:12.865 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:12.953 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:14.042 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:14.355 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:14.357 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='wrong_user', password='secret_sauce', expectedType='invalid', expectedMessage='Epic sadface: Username and password do not match any user in this service'
-2025-11-23 07:43:14.358 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:14.359 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: wrong_user
-2025-11-23 07:43:14.540 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:14.541 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:14.541 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
-2025-11-23 07:43:14.586 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:14.587 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:14.587 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username salah, password benar (username='wrong_user', password='secret_sauce', expectedType='invalid') ===
+2025-11-23 08:13:09.775 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:09.781 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:09.873 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:10.937 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:11.281 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:11.282 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='wrong_user', password='secret_sauce', expectedType='invalid', expectedMessage='Epic sadface: Username and password do not match any user in this service'
+2025-11-23 08:13:11.283 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:11.287 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: wrong_user
+2025-11-23 08:13:11.473 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:11.473 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:11.473 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
+2025-11-23 08:13:11.513 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:11.513 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:11.513 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username salah, password benar (username='wrong_user', password='secret_sauce', expectedType='invalid') ===
 
-2025-11-23 07:43:14.588 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:14.600 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:14.714 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:15.653 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:15.927 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:15.927 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='', password='secret_sauce', expectedType='invalid', expectedMessage='Epic sadface: Username is required'
-2025-11-23 07:43:15.927 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:15.930 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: 
-2025-11-23 07:43:16.106 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:16.106 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:16.106 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
-2025-11-23 07:43:16.146 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:16.146 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:16.146 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username kosong, password diisi (username='', password='secret_sauce', expectedType='invalid') ===
+2025-11-23 08:13:11.514 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:11.519 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:11.610 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:12.686 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:13.046 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:13.049 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='', password='secret_sauce', expectedType='invalid', expectedMessage='Epic sadface: Username is required'
+2025-11-23 08:13:13.050 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:13.051 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: 
+2025-11-23 08:13:13.240 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:13.240 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:13.240 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
+2025-11-23 08:13:13.282 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:13.282 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:13.282 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username kosong, password diisi (username='', password='secret_sauce', expectedType='invalid') ===
 
-2025-11-23 07:43:16.146 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:16.152 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:16.292 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:17.334 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:17.677 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:17.677 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='', expectedType='invalid', expectedMessage='Epic sadface: Password is required'
-2025-11-23 07:43:17.677 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:17.677 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
-2025-11-23 07:43:17.854 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:17.855 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:17.855 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
-2025-11-23 07:43:17.892 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:17.892 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:17.892 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username diisi, password kosong (username='standard_user', password='', expectedType='invalid') ===
+2025-11-23 08:13:13.283 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:13.288 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:13.376 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:14.362 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:14.842 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:14.846 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='standard_user', password='', expectedType='invalid', expectedMessage='Epic sadface: Password is required'
+2025-11-23 08:13:14.847 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:14.847 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: standard_user
+2025-11-23 08:13:15.030 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:15.031 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:15.031 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
+2025-11-23 08:13:15.069 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:15.069 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:15.069 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username diisi, password kosong (username='standard_user', password='', expectedType='invalid') ===
 
-2025-11-23 07:43:17.893 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:17.898 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:17.990 [Test worker] INFO  tests.BaseTest - Driver quit
-2025-11-23 07:43:18.984 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
-2025-11-23 07:43:19.404 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
-2025-11-23 07:43:19.405 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='', password='', expectedType='invalid', expectedMessage='Epic sadface: Username is required'
-2025-11-23 07:43:19.405 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
-2025-11-23 07:43:19.405 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: 
-2025-11-23 07:43:19.535 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
-2025-11-23 07:43:19.535 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
-2025-11-23 07:43:19.535 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
-2025-11-23 07:43:19.572 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
-2025-11-23 07:43:19.572 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
-2025-11-23 07:43:19.573 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username & password kosong (username='', password='', expectedType='invalid') ===
+2025-11-23 08:13:15.070 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:15.076 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:15.164 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:16.250 [Test worker] INFO  tests.BaseTest - Open baseUrl: https://www.saucedemo.com/
+2025-11-23 08:13:16.580 [Test worker] INFO  tests.LoginTest - [DataDriven] === START Case ===
+2025-11-23 08:13:16.582 [Test worker] INFO  tests.LoginTest - [DataDriven] Input data: username='', password='', expectedType='invalid', expectedMessage='Epic sadface: Username is required'
+2025-11-23 08:13:16.583 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 1 - Eksekusi login()
+2025-11-23 08:13:16.583 [Test worker] INFO  com.saucedemo.Pages.LoginPage - Logging in with username: 
+2025-11-23 08:13:16.714 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 2 - URL   setelah login : https://www.saucedemo.com/
+2025-11-23 08:13:16.714 [Test worker] INFO  tests.LoginTest - [DataDriven] Step 3 - Title setelah login : Swag Labs
+2025-11-23 08:13:16.714 [Test worker] INFO  tests.LoginTest - [DataDriven] Expectation: FAILED case (invalid)
+2025-11-23 08:13:16.751 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 1 OK - Pesan error sesuai expectation
+2025-11-23 08:13:16.752 [Test worker] INFO  tests.LoginTest - [DataDriven] Assert FAILED 2 OK - User tetap di halaman login
+2025-11-23 08:13:16.752 [Test worker] INFO  tests.LoginTest - [DataDriven] === END Case: invalid - username & password kosong (username='', password='', expectedType='invalid') ===
 
-2025-11-23 07:43:19.573 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
-2025-11-23 07:43:19.579 [Test worker] INFO  tests.BaseTest - Session cleared successfully
-2025-11-23 07:43:19.673 [Test worker] INFO  tests.BaseTest - Driver quit
+2025-11-23 08:13:16.752 [Test worker] INFO  tests.BaseTest - Clearing session and cookies...
+2025-11-23 08:13:16.757 [Test worker] INFO  tests.BaseTest - Session cleared successfully
+2025-11-23 08:13:16.842 [Test worker] INFO  tests.BaseTest - Driver quit
