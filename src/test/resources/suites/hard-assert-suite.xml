@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Hard Assert Suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <listeners>
+        <listener class-name="tests.ExtentReportListener"/>
+        <listener class-name="tests.ScreenshotListener"/>
+    </listeners>
+    <test name="Hard Assert Test">
+        <classes>
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="testValidLoginHardAssert"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

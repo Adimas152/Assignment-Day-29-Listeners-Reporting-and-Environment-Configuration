@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" verbose="1">
+    <parameter name="browser" value="chrome"/>
+    <listeners>
+        <listener class-name="tests.ExtentReportListener"/>
+        <listener class-name="tests.ScreenshotListener"/>
+    </listeners>
+    <test name="All Test Suite">
+        <classes>
+            <class name="tests.LoginTest">
+                <methods>
+                    <include name="testValidLoginHardAssert"/>
+                    <include name="testLockedUserLoginSoftAssert"/>
+                    <include name="testLoginDataDriven"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
